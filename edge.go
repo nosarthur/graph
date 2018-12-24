@@ -9,5 +9,5 @@ type Edge struct {
 }
 
 func (e Edge) String() string {
-	return fmt.Sprintf("(%s, %s)", e.N1.ID(), e.N2.ID())
+	return fmt.Sprintf("(%s, %s)", e.N1.id, e.N2.id)
 }
